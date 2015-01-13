@@ -1,0 +1,456 @@
+<?xml version="1.0" ?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.1//EN'
+  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg height="420mm" preserveAspectRatio="xMinYMin slice" version="1.1" viewBox="0 0 29700 42000" width="297mm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>Poor Man's Dive</title>
+	<desc>Poor Man's Dive is a pattern for paper model of OpenDive (http://www.durovis.com/opendive.html) compatible 3D glasses.</desc>
+	<metadata>
+		<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+			<cc:Work rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:creator>Egor Puzanov</dc:creator>
+				<dc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+				<cc:attributionName>Egor Puzanov</cc:attributionName>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+				<cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<param name="page_width" value="297"/>
+	<param name="page_height" value="420"/>
+	<param name="device_width" value="65.5"/>
+	<param name="device_height" value="132.6"/>
+	<param name="device_depth" value="6.18"/>
+	<param name="device_screen_middle" value=""/>
+	<param name="lens_focal_length" value="40"/>
+	<param name="lens_diameter" value="26"/>
+	<param name="pupillary_distance" value="60"/>
+	<param name="strap_width" value="40"/>
+	<param name="page" value=""/>
+	<defs>
+		<style type="text/css">
+<![CDATA[
+polyline {
+	fill: none;
+	stroke: black;
+	stroke-width: 50
+}
+circle {
+	fill: none;
+	stroke: black;
+	stroke-width: 50
+}
+rect {
+	fill: none;
+	stroke: black;
+	stroke-width: 50
+}
+line {
+	fill: none;
+	stroke: black;
+	stroke-width: 20;
+	stroke-dasharray: 200,200
+}
+]]>		</style>
+		<symbol id="RightUpSide">
+			<polyline points="0,11874 1300,13074 6730,13074 5800,9000 6596,10169 8716,10571 9885,9775 9885,10775 10885,10775 10885,2225 9885,2225 9885,3225 8716,2429 6596,2831 5800,4000 5600,4000 5600,0"/>
+			<polyline points="0,7600 800,7600 1800,4000 800,400 0,400"/>
+			<circle cx="3000" cy="6500" r="1100"/>
+			<circle cx="3000" cy="1500" r="1300"/>
+			<rect height="4200" width="200" x="5600" y="4400"/>
+			<rect height="4200" width="200" x="6800" y="4400"/>
+			<rect height="4200" width="200" x="7800" y="4400"/>
+			<line x1="0" x2="5800" y1="9000" y2="9000"/>
+			<line x1="9885" x2="10885" y1="9775" y2="9775"/>
+			<line x1="5800" x2="9885" y1="9000" y2="9775"/>
+			<line x1="9885" x2="9885" y1="9775" y2="3225"/>
+			<line x1="9885" x2="9885" y1="9000" y2="3225"/>
+			<line x1="9885" x2="10885" y1="3225" y2="3225"/>
+			<line x1="5800" x2="5800" y1="9000" y2="4000"/>
+			<line x1="1800" x2="5800" y1="4000" y2="4000"/>
+			<line x1="5800" x2="9885" y1="4000" y2="3225"/>
+			<line x1="0" x2="5600" y1="0" y2="0"/>
+		</symbol>
+		<symbol id="RightDownSide">
+			<polyline points="5600,0 5600,4000 5800,4000 6730,7976 7448,7976 7448,8694 6730,8694 7448,8694 11533,9469 11533,14469 7448,15344 1300,15344 0,14144"/>
+			<polyline points="0,400 800,400 1800,4000 1800,7976 0,7976"/>
+			<circle cx="3000" cy="1500" r="1100"/>
+			<rect height="4200" width="200" x="10333" y="9869"/>
+			<rect height="4200" width="200" x="9433" y="9869"/>
+			<line x1="0" x2="5600" y1="0" y2="0"/>
+			<line x1="1800" x2="5800" y1="4000" y2="4000"/>
+			<line x1="1800" x2="6730" y1="7976" y2="7976"/>
+			<line x1="6730" x2="6730" y1="7976" y2="8694"/>
+			<line x1="0" x2="6730" y1="8694" y2="8694"/>
+			<line x1="6830" x2="6830" y1="8694" y2="15344"/>
+			<line x1="7448" x2="7448" y1="8694" y2="15344"/>
+		</symbol>
+		<symbol id="LeftUpSide">
+			<polyline points="0,11874 1300,13074 6730,13074 5800,9000 6596,10169 8716,10571 9885,9775 9885,10775 10885,10775 10885,2225 9885,2225 9885,3225 8716,2429 6596,2831 5800,4000 5600,4000 5600,0"/>
+			<polyline points="0,7600 800,7600 1800,4000 800,400 0,400"/>
+			<circle cx="3000" cy="6500" r="1100"/>
+			<circle cx="3000" cy="1500" r="1300"/>
+			<rect height="4200" width="200" x="5600" y="4400"/>
+			<rect height="4200" width="200" x="6800" y="4400"/>
+			<rect height="4200" width="200" x="7800" y="4400"/>
+			<line x1="0" x2="5800" y1="9000" y2="9000"/>
+			<line x1="9885" x2="10885" y1="9775" y2="9775"/>
+			<line x1="5800" x2="9885" y1="9000" y2="9775"/>
+			<line x1="9885" x2="9885" y1="9775" y2="3225"/>
+			<line x1="9885" x2="9885" y1="9000" y2="3225"/>
+			<line x1="9885" x2="10885" y1="3225" y2="3225"/>
+			<line x1="5800" x2="5800" y1="9000" y2="4000"/>
+			<line x1="1800" x2="5800" y1="4000" y2="4000"/>
+			<line x1="5800" x2="9885" y1="4000" y2="3225"/>
+			<line x1="0" x2="5600" y1="0" y2="0"/>
+		</symbol>
+		<symbol id="LeftDownSide">
+			<polyline points="5600,0 5600,4000 5800,4000 6730,7976 7448,7976 7448,8694 6730,8694 7448,8694 11533,9469 11533,14469 7448,15344 1300,15344 0,14144"/>
+			<polyline points="0,400 800,400 1800,4000 1800,7976 0,7976"/>
+			<circle cx="3000" cy="1500" r="1100"/>
+			<rect height="4200" width="200" x="10333" y="9869"/>
+			<rect height="4200" width="200" x="9433" y="9869"/>
+			<line x1="0" x2="5600" y1="0" y2="0"/>
+			<line x1="1800" x2="5800" y1="4000" y2="4000"/>
+			<line x1="1800" x2="6730" y1="7976" y2="7976"/>
+			<line x1="6730" x2="6730" y1="7976" y2="8694"/>
+			<line x1="0" x2="6730" y1="8694" y2="8694"/>
+			<line x1="6830" x2="6830" y1="8694" y2="15344"/>
+			<line x1="7448" x2="7448" y1="8694" y2="15344"/>
+		</symbol>
+	</defs>
+	<g id="page1" transform="translate(11583,13124)" visibility="visible">
+		<use transform="scale(-1,-1)" xlink:href="#LeftUpSide"/>
+		<use transform="scale(1,-1)" xlink:href="#RightUpSide"/>
+	</g>
+	<g id="page2" transform="translate(11583,13124)" visibility="visible">
+		<image height="6650" transform="translate(6730,15344) scale(-1,-1)" width="13460" x="0" xlink:href="data:image/svg+xml;utf8,%3Csvg xmlns=&quot;http://www.w3.org/2000/svg&quot;%3E%3Ctext x=&quot;270&quot; y=&quot;500&quot; font-family=&quot;Verdana&quot; font-size=&quot;200&quot;%3EPM%3C/text%3E%3Ctext x=&quot;100&quot; y=&quot;700&quot; font-family=&quot;Verdana&quot; font-size=&quot;800&quot;%3EDive%3C/text%3E%3C/svg%3E" y="0"/>
+		<use transform="scale(-1,1)" xlink:href="#LeftDownSide"/>
+		<use xlink:href="#RightDownSide"/>
+	</g>
+	<script type="application/ecmascript">
+<![CDATA[
+var params = { };
+var svgparams = document.getElementsByTagName( "param" );
+for (var i = 0; i < svgparams.length; ++i) {
+	params[ svgparams[i].attributes["name"].value ] = svgparams[i].attributes["value"].value;
+}
+
+var actions = new function () {
+	this.list = [];
+	this.splice = function (s, l, action) {
+		if (this.list.indexOf(action) < 0) {
+			this.list.splice(s, l, action);
+		}
+	};
+	this.push = function (action) {
+		if (this.list.indexOf(action) < 0) {
+			this.list.push(action);
+		}
+	};
+	this.join = function (separator) {
+		return this.list.join(separator);
+	};
+}
+
+if (location.href.indexOf( '?' ) != -1) {
+	location.href.split( '?' )[1].split(/&|;/).forEach(
+		function( i ) {
+			var varval = i.split( '=' );
+			switch (unescape(varval[0])) {
+				case "pd":
+					actions.push('updateCircles');
+					varval[0] = 'pupillary_distance';
+					break;
+				case "dimensions":
+					var dimensions = varval[1].toLowerCase().split('x');
+					params[ 'device_width' ] = unescape(dimensions[1]);
+					params[ 'device_depth' ] = unescape(dimensions[2]);
+					varval = ['device_height', dimensions[0]];
+					actions.splice(0, 0, 'updateSymbols');
+					break;
+				case "page_width":
+					actions.splice(0, 0, 'updateSymbols');
+					actions.push('updateViewBox');
+					break;
+				case "page_height":
+					actions.splice(0, 0, 'updateSymbols');
+					actions.push('updateViewBox');
+					break;
+				case "device_width": actions.splice(0, 0, 'updateSymbols'); break;
+				case "device_height": actions.splice(0, 0, 'updateSymbols'); break;
+				case "device_depth": actions.splice(0, 0, 'updateSymbols'); break;
+				case "device_screen_middle": actions.splice(0, 0, 'updateSymbols'); break;
+				case "lens_focal_length": actions.splice(0, 0, 'updateSymbols'); break;
+				case "lens_diameter": actions.push('updateCircles'); break;
+				case "pupillary_distance": actions.push('updateCircles'); break;
+				case "strap_width": actions.push('updateStrapWidth'); break;
+				case "page": actions.push('updatePages'); break;
+				case "logo": actions.push('updateLogo'); break;
+				default: break;
+			}
+			params[ unescape(varval[0]) ] = unescape(varval[1]);
+		}
+	)
+}
+
+function point(x, y) {
+	this.x = x;
+	this.y = y;
+	this.toString = function (separator) {
+		return x + ',' + y;
+	}
+}
+
+function getScreenMiddle(params, side) {
+	if (params.device_screen_middle == '') {
+		return params.device_height/2;
+	}
+	if (side == 'Right') {
+		return params.device_height - params.device_screen_middle;
+	} else {
+		return params.device_screen_middle;
+	}			
+}
+
+function getPoints(params, side) {
+	var points = [];
+	var last = null;
+	points.push(last = new point(1300, Math.round(Math.sqrt(Math.pow(params.device_width / 2 - 25, 2) + Math.pow(params.lens_focal_length, 2)) * 100) + 9000))
+	points.splice(0, 0, new point(0, last.y - 1200));
+	points.push(last = new point(Math.round(getScreenMiddle(params, side) * 100 + 100), last.y));
+	points.push(last = new point(5800, 9000));
+	points.push(last = new point(Math.round(Math.sqrt(Math.pow(getScreenMiddle(params, side) - 58, 2) + Math.pow(params.lens_focal_length, 2)) * 100) + 5800, Math.round((params.device_width / 2 - 25) * 100) + 9000));
+	angle = Math.atan((last.y -9000) / (last.x - 5800.0)) + Math.atan(1);
+	angle1 = Math.atan((points[2].y - 9000) / (points[2].x - 5800.0));
+	if (Math.abs(angle1) > angle) {
+		angle1 = angle;
+	}
+	points.splice(4, 0, new point(Math.round(5800 + Math.abs(Math.cos(angle1) * 1414)), Math.round(Math.abs(Math.sin(angle1) * 1414)) + 9000));
+	points.splice(5, 0, new point(points[5].x - Math.round(Math.abs(Math.sin(angle - Math.atan(1)) * 1000)), points[5].y + Math.round(Math.abs(Math.cos(angle - Math.atan(1)) * 1000))));
+	points.push(last = new point(last.x, last.y + 1000));
+	points.push(last = new point(last.x + 1000, last.y));
+	points.push(last = new point(last.x, last.y - (params.device_width * 100) - 2000));
+	points.push(last = new point(last.x - 1000, last.y));
+	points.push(last = new point(last.x, last.y + 1000));
+	points.push(last = new point(points[5].x, 13000 - points[5].y));
+	if (angle > Math.asin(1)) {
+		points.push(last = new point(5800, 3300));
+	} else {
+		points.push(last = new point(points[4].x, 13000 - points[4].y));
+	}
+	points.push(last = new point(5800, 4000));
+	points.push(last = new point(5600, 4000));
+	points.push(last = new point(5600, 0));
+	points.push(last = new point(5600, 4000));
+	points.push(last = new point(5800, 4000));
+	points.push(last = new point(Math.round(getScreenMiddle(params, side) * 100 + 100), Math.round(Math.sqrt(Math.pow(params.device_width / 2 - 25, 2) + Math.pow(params.lens_focal_length - 1, 2)) * 100) + last.y));
+	points.push(last = new point(last.x + Math.round(params.device_depth * 100 + 100), last.y));
+	points.push(last = new point(last.x, last.y + Math.round(params.device_depth * 100 + 100)));
+	points.push(last = new point(points[19].x, last.y));
+	points.push(last = new point(points[20].x, last.y));
+	points.push(last = new point(last.x + Math.round(Math.sqrt(Math.pow(getScreenMiddle(params, side) - 58, 2) + Math.pow(params.lens_focal_length, 2)) * 100), Math.round((params.device_width / 2 - 25) * 100) + last.y));
+	points.push(last = new point(last.x, last.y + 5000));
+	points.push(last = new point(points[23].x, points[23].y + Math.round(params.device_width * 100 + 100)));
+	points.push(new point(1300, last.y));
+	points.push(last = new point(0, last.y - 1200));
+	return points;
+}
+
+function updateSymbols(params) {
+	var rpoints = getPoints(params, 'Right');
+	if (params.device_screen_middle == "" || params.device_screen_middle == params.device_height / 2) {
+		var lpoints = rpoints;
+	} else {
+		var lpoints = getPoints(params, 'Left');
+	}
+	var nl = document.getElementsByTagName( "polyline" );
+	nl[0].setAttribute("points", rpoints.slice(0,17).join(' '));
+	nl[2].setAttribute("points", rpoints.slice(16).join(' '));
+	nl[3].setAttribute("points", '0,400 800,400 1800,4000 1800,' + rpoints[19].y + ' 0,' +  rpoints[19].y);
+	nl[4].setAttribute("points", lpoints.slice(0,17).join(' '));
+	nl[6].setAttribute("points", lpoints.slice(16).join(' '));
+	nl[7].setAttribute("points", '0,400 800,400 1800,4000 1800,' + lpoints[19].y + ' 0,' +  lpoints[19].y);
+	nl = document.getElementsByTagName( "rect" );
+	var strap_width = params.strap_width * 100 + 200;
+    var y_int=Math.round(6500 - (strap_width / 2));
+	for (var i = 0; i < nl.length; ++i) {
+		nl[i].setAttribute("y", y_int);
+		nl[i].setAttribute("height", strap_width);
+	}
+    y_int = Math.round((rpoints[25].y - rpoints[24].y - strap_width)/2) + rpoints[24].y;
+	nl[3].setAttribute("x", rpoints[24].x - 1200);
+	nl[3].setAttribute("y", y_int);
+	nl[4].setAttribute("x", rpoints[24].x - 2100);
+	nl[4].setAttribute("y", y_int);
+	nl[8].setAttribute("x", lpoints[24].x - 1200);
+	nl[8].setAttribute("y", y_int);
+	nl[9].setAttribute("x", lpoints[24].x - 2100);
+	nl[9].setAttribute("y", y_int);
+	nl = document.getElementsByTagName( "line" );
+	nl[1].setAttribute("x1", rpoints[6].x);
+	nl[1].setAttribute("y1", rpoints[6].y - 100);
+	nl[1].setAttribute("x2", rpoints[8].x);
+	nl[1].setAttribute("y2", rpoints[6].y - 100);
+	nl[2].setAttribute("x1", rpoints[3].x);
+	nl[2].setAttribute("y1", rpoints[3].y);
+	nl[2].setAttribute("x2", rpoints[6].x);
+	nl[2].setAttribute("y2", rpoints[6].y);
+	nl[3].setAttribute("x1", rpoints[6].x);
+	nl[3].setAttribute("y1", rpoints[6].y);
+	nl[3].setAttribute("x2", rpoints[11].x);
+	nl[3].setAttribute("y2", rpoints[11].y);
+	nl[4].setAttribute("x1", rpoints[11].x);
+	nl[4].setAttribute("x2", rpoints[11].x);
+	nl[4].setAttribute("y2", rpoints[11].y);
+	nl[5].setAttribute("x1", rpoints[11].x);
+	nl[5].setAttribute("y1", rpoints[11].y + 100);
+	nl[5].setAttribute("x2", rpoints[8].x);
+	nl[5].setAttribute("y2", rpoints[11].y + 100);
+	nl[8].setAttribute("x2", rpoints[11].x);
+	nl[8].setAttribute("y2", rpoints[11].y);
+	nl[12].setAttribute("y1", rpoints[19].y);
+	nl[12].setAttribute("x2", rpoints[19].x);
+	nl[12].setAttribute("y2", rpoints[19].y);
+	nl[13].setAttribute("x1", rpoints[19].x);
+	nl[13].setAttribute("y1", rpoints[19].y);
+	nl[13].setAttribute("x2", rpoints[22].x);
+	nl[13].setAttribute("y2", rpoints[22].y);
+	nl[14].setAttribute("y1", rpoints[22].y);
+	nl[14].setAttribute("x2", rpoints[22].x);
+	nl[14].setAttribute("y2", rpoints[22].y);
+	nl[15].setAttribute("x1", rpoints[22].x + 100);
+	nl[15].setAttribute("y1", rpoints[22].y);
+	nl[15].setAttribute("x2", rpoints[22].x + 100);
+	nl[15].setAttribute("y2", rpoints[26].y);
+	nl[16].setAttribute("x1", rpoints[23].x);
+	nl[16].setAttribute("y1", rpoints[23].y);
+	nl[16].setAttribute("x2", rpoints[23].x);
+	nl[16].setAttribute("y2", rpoints[26].y);
+	nl[18].setAttribute("x1", lpoints[6].x);
+	nl[18].setAttribute("y1", lpoints[6].y - 100);
+	nl[18].setAttribute("x2", lpoints[8].x);
+	nl[18].setAttribute("y2", lpoints[6].y - 100);
+	nl[19].setAttribute("x1", lpoints[3].x);
+	nl[19].setAttribute("y1", lpoints[3].y);
+	nl[19].setAttribute("x2", lpoints[6].x);
+	nl[19].setAttribute("y2", lpoints[6].y);
+	nl[20].setAttribute("x1", lpoints[6].x);
+	nl[20].setAttribute("y1", lpoints[6].y);
+	nl[20].setAttribute("x2", lpoints[11].x);
+	nl[20].setAttribute("y2", lpoints[11].y);
+	nl[21].setAttribute("x1", lpoints[11].x);
+	nl[21].setAttribute("x2", lpoints[11].x);
+	nl[21].setAttribute("y2", lpoints[11].y);
+	nl[22].setAttribute("x1", lpoints[11].x);
+	nl[22].setAttribute("y1", lpoints[11].y + 100);
+	nl[22].setAttribute("x2", lpoints[8].x);
+	nl[22].setAttribute("y2", lpoints[11].y + 100);
+	nl[25].setAttribute("x2", lpoints[11].x);
+	nl[25].setAttribute("y2", lpoints[11].y);
+	nl[29].setAttribute("y1", lpoints[19].y);
+	nl[29].setAttribute("x2", lpoints[19].x);
+	nl[29].setAttribute("y2", lpoints[19].y);
+	nl[30].setAttribute("x1", lpoints[19].x);
+	nl[30].setAttribute("y1", lpoints[19].y);
+	nl[30].setAttribute("x2", lpoints[22].x);
+	nl[30].setAttribute("y2", lpoints[22].y);
+	nl[31].setAttribute("y1", lpoints[22].y);
+	nl[31].setAttribute("x2", lpoints[22].x);
+	nl[31].setAttribute("y2", lpoints[22].y);
+	nl[32].setAttribute("x1", lpoints[22].x + 100);
+	nl[32].setAttribute("y1", lpoints[22].y);
+	nl[32].setAttribute("x2", lpoints[22].x + 100);
+	nl[32].setAttribute("y2", lpoints[26].y);
+	nl[33].setAttribute("x1", lpoints[23].x);
+	nl[33].setAttribute("y1", lpoints[23].y);
+	nl[33].setAttribute("x2", lpoints[23].x);
+	nl[33].setAttribute("y2", lpoints[26].y);
+	var trx = (Math.max(rpoints[8].x, rpoints[24].x) + Math.max(lpoints[8].x, lpoints[24].x)) / 2 + 50;
+	if (trx > (params.page_width * 50)) {
+		trx = Math.round(params.page_width * 50);
+	}
+	var pages = document.getElementsByTagName( "g" );
+	for (var i = 0; i < 2; ++i) {
+		var tr = pages[i].getAttribute( "transform" ).split(",")[1];
+		pages[i].setAttribute( "transform", "translate(" + trx + "," + tr );          
+	}
+	var nl = document.getElementsByTagName( "image" );
+	nl[0].setAttribute( "height", params.device_width * 100 + 100 );
+	nl[0].setAttribute( "width", params.device_height * 100 + 200 );
+	nl[0].setAttribute( "transform", 'translate(' + rpoints[19].x + ',' + rpoints[26].y + ') scale(-1,-1)');
+}
+
+function updateViewBox(params) {
+	var svg = document.getElementsByTagName( "svg" )[0];
+	svg.setAttribute( "width", params.page_width + "mm" );
+	svg.setAttribute( "height", params.page_height + "mm" );
+	svg.setAttribute( "viewBox", "0 0 " +  (params.page_width * 100) + " " + (params.page_height * 100));
+};
+
+function updateCircles (params) {
+	var r = params.lens_diameter * 50 - 200;
+	var cx = params.pupillary_distance * 50; 
+	var nl = document.getElementsByTagName( "circle" );
+	for (var i = 0; i < nl.length; ++i) {
+		nl[i].setAttribute( "cx", cx );
+		if (i == 1 || i == 4) {
+			nl[i].setAttribute( "r", r + 200 );
+		} else {
+			nl[i].setAttribute( "r", r );
+		}
+	}
+}
+
+function updateStrapWidth (params) {
+	var strap_width = params.strap_width * 100 + 200;
+	var nl = document.getElementsByTagName( "rect" );
+	var yu = Math.round(6500 - strap_width/2);
+	var yd = Math.round(nl[3].getAttribute( "y" )/1 + nl[3].getAttribute( "height" )/2 - strap_width/2);
+	for (var i = 0; i < nl.length; ++i) {
+		if ( [3,4,8,9].indexOf(i) < 0 ) {
+			nl[i].setAttribute( "y", yu );
+		} else {
+			nl[i].setAttribute( "y", yd );
+		}
+		nl[i].setAttribute( "height", strap_width );
+	}
+}
+
+function updateLogo (params) {
+	var nl = document.getElementsByTagName( "image" );
+	nl[0].setAttribute( "xlink:href", params.logo );
+}
+
+function updatePages(params) {
+	var pages = document.getElementsByTagName( "g" );
+	if (params.page == "1") {
+		pages[0].setAttribute("visibility", "visible");
+		pages[1].setAttribute("visibility", "hidden");
+	} else if (params.page == "2") {
+		pages[0].setAttribute("visibility", "hidden");
+		pages[1].setAttribute("visibility", "visible");
+		var tr = pages[1].getAttribute("transform").split(",")[0] + ",50)";
+		pages[1].setAttribute("transform", tr);
+	} else {
+		pages[0].setAttribute("visibility", "visible");
+		pages[1].setAttribute("visibility", "visible");
+		tr = pages[0].getAttribute("transform");
+		pages[1].setAttribute("transform", tr);       
+    }
+}
+
+for (var action in actions.list) {
+	eval(actions.list[action])(params);
+}
+]]>	</script>
+</svg>
