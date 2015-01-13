@@ -16,13 +16,14 @@ Requirements
 Usage
 =====
 
-python script usage example: 
-    
+python script usage example:
+
     ::
+
         python pmdive.py --page_width=210 --pupillary_distance=70 --noscript output.svg
 
 If SVG file was created without --noscript parameter, it can be opened in web browser with additional parameters:
-    
+
     ::
 
         file:///C:/temp/pmdive.svg?dimensions=132.6x65.5x6.18;pd=20;page=1
